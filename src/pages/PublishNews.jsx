@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 // import axios from "axios";
 import instance from "../libs/axios";
 import { useNavigate, useParams } from "react-router-dom";
-import Navbar from "../components/Navbar";
+import NavbarAdmin from "../components/NavbarAdmin";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import { MdArrowBack } from "react-icons/md";
@@ -67,7 +67,7 @@ const PublishNews = () => {
 
   return (
     <>
-    <Navbar/>
+    <NavbarAdmin/>
     <div className="container">
       <div className="row justify-content-center">
       <div className="flex items-center justify-between my-4 text-center">
